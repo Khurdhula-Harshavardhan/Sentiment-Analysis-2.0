@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+#need to ignore datasets folder that contains our csv files, but this is very large, and not very useful
+datasets/
+
 # C extensions
 *.so
 
